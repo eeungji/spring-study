@@ -19,10 +19,10 @@ public class ReplyPostDto {
         NotBlank: null도 안되고 빈문자도 안됨
      */
     @NotBlank
-    @Size(min = 1, max = 300)
+    @Size(min = 1, max = 300) //최소 1글자 ~ 최대 300글자
     private String text ; // 댓글 내용
     @NotBlank
-    @Size(min = 2, max = 8)
+    @Size(min = 2, max = 8) //최소 2글자 ~ 최대 8글자
     private String author; // 댓글 작성자
     @NotNull
     private Long bno; // 원본 글번호

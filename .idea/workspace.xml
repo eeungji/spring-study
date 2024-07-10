@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec3da5f4-95c0-4ce2-96e2-c5d6bdbf9b4b" name="변경" comment="# 카카오 로그인 후속처리">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/api/ReplyApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/api/ReplyApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/ReplyPostDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/ReplyPostDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +28,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springstudy" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -89,68 +87,68 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.HotelDiTest.diTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.HotelTest.hotelTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springstudy [:Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springstudy [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP 요청.generated-requests | #6.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardMapperTest.insertTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryImplTest.deleteTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryImplTest.findAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryImplTest.saveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HotelSpringDITest.diTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LogExampleTest.logTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberMapperTest.encodingTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberMapperTest.existsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberMapperTest.existsTest2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberMapperTest.findOneTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberMapperTest.saveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberServiceTest.joinTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberServiceTest.noAccTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberServiceTest.noPwTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberServiceTest.successTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.delTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.findAllTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.findNamesTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.findOneTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.saveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.updateTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReplyMapperTest.bulkInsert.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReplyMapperTest.deleteTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReplyMapperTest.findAllTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReplyMapperTest.modifyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScoreMapperTest.findAllTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScoreMapperTest.findOneTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScoreMapperTest.rankTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.deleteTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.findAllTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.findOneTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.modifyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.saveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentTest.sTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/superstar/Desktop/develop/springstudy&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/superstar/Desktop/develop/springstudy/src/main/java/com/study/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.HotelDiTest.diTest.executor": "Run",
+    "Gradle.HotelTest.hotelTest.executor": "Run",
+    "Gradle.springstudy [:Main.main()].executor": "Run",
+    "Gradle.springstudy [clean].executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "HTTP 요청.generated-requests | #6.executor": "Run",
+    "JUnit.BoardMapperTest.insertTest.executor": "Run",
+    "JUnit.BoardRepositoryImplTest.deleteTest.executor": "Run",
+    "JUnit.BoardRepositoryImplTest.findAll.executor": "Run",
+    "JUnit.BoardRepositoryImplTest.saveTest.executor": "Run",
+    "JUnit.HotelSpringDITest.diTest.executor": "Run",
+    "JUnit.LogExampleTest.logTest.executor": "Run",
+    "JUnit.MemberMapperTest.encodingTest.executor": "Run",
+    "JUnit.MemberMapperTest.existsTest.executor": "Run",
+    "JUnit.MemberMapperTest.existsTest2.executor": "Run",
+    "JUnit.MemberMapperTest.findOneTest.executor": "Run",
+    "JUnit.MemberMapperTest.saveTest.executor": "Run",
+    "JUnit.MemberServiceTest.joinTest.executor": "Run",
+    "JUnit.MemberServiceTest.noAccTest.executor": "Run",
+    "JUnit.MemberServiceTest.noPwTest.executor": "Run",
+    "JUnit.MemberServiceTest.successTest.executor": "Run",
+    "JUnit.PersonMapperTest.delTest.executor": "Run",
+    "JUnit.PersonMapperTest.findAllTest.executor": "Run",
+    "JUnit.PersonMapperTest.findNamesTest.executor": "Run",
+    "JUnit.PersonMapperTest.findOneTest.executor": "Run",
+    "JUnit.PersonMapperTest.saveTest.executor": "Run",
+    "JUnit.PersonMapperTest.updateTest.executor": "Run",
+    "JUnit.PersonTest.test.executor": "Run",
+    "JUnit.ReplyMapperTest.bulkInsert.executor": "Run",
+    "JUnit.ReplyMapperTest.deleteTest.executor": "Run",
+    "JUnit.ReplyMapperTest.findAllTest.executor": "Run",
+    "JUnit.ReplyMapperTest.modifyTest.executor": "Run",
+    "JUnit.ScoreMapperTest.findAllTest.executor": "Run",
+    "JUnit.ScoreMapperTest.findOneTest.executor": "Run",
+    "JUnit.ScoreMapperTest.rankTest.executor": "Run",
+    "JUnit.SpringJdbcTest.deleteTest.executor": "Run",
+    "JUnit.SpringJdbcTest.findAllTest.executor": "Run",
+    "JUnit.SpringJdbcTest.findOneTest.executor": "Run",
+    "JUnit.SpringJdbcTest.modifyTest.executor": "Run",
+    "JUnit.SpringJdbcTest.saveTest.executor": "Run",
+    "JUnit.StudentTest.sTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/develop/spring-study202405",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/superstar/Desktop/develop/springstudy/src/main/java/com/study/Main.java",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.study.springstudy.springmvc.chap05.entity" />
@@ -185,7 +183,20 @@
       <recent name="com.study.springstudy.webservlet.chap02.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="알 수 없음.Main1565610945">
+  <component name="RunManager" selected="애플리케이션.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.springstudy.Main" />
+      <module name="springstudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.springstudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberMapperTest.encodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springstudy.test" />
       <extension name="coverage">
@@ -197,22 +208,6 @@
       <option name="PACKAGE_NAME" value="com.study.springstudy.springmvc.chap05.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.study.springstudy.springmvc.chap05.mapper.MemberMapperTest" />
       <option name="METHOD_NAME" value="encodingTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberServiceTest.joinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springstudy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.springstudy.springmvc.chap05.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.study.springstudy.springmvc.chap05.service" />
-      <option name="MAIN_CLASS_NAME" value="com.study.springstudy.springmvc.chap05.service.MemberServiceTest" />
-      <option name="METHOD_NAME" value="joinTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -275,11 +270,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="JUnit.MemberMapperTest.encodingTest" />
         <item itemvalue="JUnit.MemberServiceTest.successTest" />
         <item itemvalue="JUnit.MemberServiceTest.noPwTest" />
         <item itemvalue="JUnit.MemberServiceTest.noAccTest" />
-        <item itemvalue="JUnit.MemberServiceTest.joinTest" />
-        <item itemvalue="JUnit.MemberMapperTest.encodingTest" />
       </list>
     </recent_temporary>
   </component>

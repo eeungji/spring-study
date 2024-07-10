@@ -67,12 +67,14 @@ public class ReplyApiController {
         log.info("/api/v1/replies : POST");
         log.debug("parameter: {}", dto);
 
+        // BindeingResult 에서 error가 발생된다면,
         if (result.hasErrors()) {
             Map<String, String> errors = makeValidationMessageMap(result);
 
             return ResponseEntity
-                    .badRequest()
-                    .body(errors);
+                    .badRequest()  // 수동으로 badRequest를 내림
+                    .body(errors); //클라이언트에게 보낼 에러 메시지 직접 작성 가능
+                                    // error가 들어있는 JSON을 보냄
         }
 
         boolean flag = replyService.register(dto, session);
@@ -102,8 +104,11 @@ public class ReplyApiController {
 
     // 삭제 처리 요청
     @DeleteMapping("/{rno}")
+
+    //url에 붙어 있는 데이터 읽기 위해 @PathVariable 사용
     public ResponseEntity<?> delete(@PathVariable long rno) {
 
+        // 삭제가 끝난 dtoList
         ReplyListDto dtoList = replyService.remove(rno);
 
         return ResponseEntity
@@ -127,18 +132,21 @@ public class ReplyApiController {
     @RequestMapping(method = {RequestMethod.PUT, RequestMethod.PATCH})
     public ResponseEntity<?> modify(
             @Validated @RequestBody ReplyModifyDto dto
-            , BindingResult result
+            , BindingResult result // 입력값 검증 결과 데이터를 갖고 있는 객체
     ) {
 
         log.info("/api/v1/replies : PUT, PATCH");
         log.debug("parameter: {}", dto);
 
+
         if (result.hasErrors()) {
             Map<String, String> errors = makeValidationMessageMap(result);
+
 
             return ResponseEntity
                     .badRequest()
                     .body(errors);
+
         }
 
         ReplyListDto replyListDto = replyService.modify(dto);
